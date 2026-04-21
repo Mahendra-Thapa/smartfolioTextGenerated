@@ -95,7 +95,7 @@ def api_autocomplete():
     return jsonify({"seed": text, "completions": completions, "ready": True})
 
 # ════════════════════════════════════════════════════════════════════
-# Text Rewriter
+# Text Rewriter this
 # ════════════════════════════════════════════════════════════════════
 @app.route("/api/rewrite", methods=["POST", "OPTIONS"])
 def api_rewrite():
